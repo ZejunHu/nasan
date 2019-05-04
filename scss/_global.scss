@@ -39,3 +39,11 @@ hr.light {
 .page-section {
   padding: 8rem 0;
 }
+
+.container {
+  &--large {
+    @media (min-width: 1500px) {
+      max-width: 1440px;
+    }
+  }
+}
