@@ -1,23 +1,51 @@
 .btn {
-    &--white {
-        font-size: 12px;
-        font-weight: $font-weight-bold;
+    font-weight: $font-weight-bold;
+    font-size: 12px;
+    border-radius: 2rem;
+    padding: 0.5rem 2rem;
+    &--white {      
         background-color: $white;
         color: $main-blue;
         border: 1px solid $main-blue;
-        border-radius: 2rem;
-        padding: 0.5rem 2rem;
         &:hover {
             color: $white;
             background-color: $bg-black;
             border: 1px solid $bg-black;
         }
     }
-    @media (min-width: 992px) {
-        &--white {
-            font-size: 14px;
-            letter-spacing: 1px;
-            padding: 0.8rem 3rem;
+    &--white-blue {      
+        background-color: $white;
+        color: $main-blue;
+        border: 1px solid $main-blue;
+        &:hover {
+            color: $white;
+            background-color: $heavy-blue;
+            border: 1px solid $heavy-blue;
         }
+    }
+    &--black {  
+        background-color: $bg-black;
+        color: $white;
+        border: 1px solid $black;
+        &:hover {
+            color: $main-blue;
+            background-color: $white;
+            border: 1px solid $white;
+        }
+    }
+    &--blue {
+        background-color: $heavy-blue;
+        color: $white;
+        border: 1px solid $heavy-blue;
+        &:hover {
+            color: $white;
+            background-color: $main-red;
+            border: 1px solid $main-red;
+        }
+    }
+    @media (min-width: 992px) {
+        font-size: 14px;
+        letter-spacing: 1px;
+        padding: 0.8rem 3rem;
     }
 }

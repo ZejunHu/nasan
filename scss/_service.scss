@@ -1,0 +1,45 @@
+.ourservice-box {
+    font-family: $font-family-yahei;
+    img {
+        height: 40px;
+        width: auto;
+        margin: 0 auto 1.8rem;
+    }
+    .ourservice-box-heading {
+        font-size: 1rem;
+        font-weight: 600;
+        font-family: $font-family-yahei;
+    }
+    hr {
+        border-color: $main-red;
+        max-width: 3.25rem;
+        border-width: .15rem;
+    }
+    .ourservice-box-text {
+        font-size: 14px;
+    }
+}
+
+.service-link-box {
+    max-width: 340px;
+    margin: 0 auto;
+    .service-link-box-imgbox {
+        height: 160px;
+        width: 160px;
+        margin: 0 auto;
+        padding: 55px 0;
+        background-color: rgba( $main-blue, .13 );
+        img {
+            height: 50px;
+            width: auto;
+        }
+        &:hover {
+            background-color: rgba( $main-blue, .38 );
+        }
+    }
+    .service-link-box-heading {
+        font-size: 18px;
+        font-weight: 900;
+        font-family: $font-family-yahei;
+    }
+}

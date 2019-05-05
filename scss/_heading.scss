@@ -1,0 +1,45 @@
+.heading {
+    position: relative;
+    display: inline-block;
+    font-weight: $font-weight-bold;
+    text-transform: uppercase;
+    margin: 0 auto;
+    .heading-header {
+        text-align: right;
+        font-family: $font-family-yahei;
+        letter-spacing: 1px;
+        margin-bottom: 0;
+        &--black {
+            color: $black;
+        }
+        &--white {
+            color: $white;
+        }
+    }
+    .heading-divider {
+        margin: 0.3rem 5px 0.3rem auto;
+        height: 2px;
+        max-width: 8rem;
+        width: 40%;
+        &--red {
+            background-color: $main-red;
+        }
+        &--black {
+            background-color: $black;
+        }
+    }
+    .heading-text {
+        text-align: right;
+        font-family: $font-family-raleway;
+        padding-right: 5px;
+        font-size: 14px;
+        line-height: 16px;
+        letter-spacing: 1px;
+        &--black {
+            color: $black;
+        }
+        &--red {
+            color: $main-red;
+        }
+    }
+}

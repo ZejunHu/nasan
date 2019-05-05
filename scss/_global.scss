@@ -3,6 +3,7 @@ body,
 html {
   width: 100%;
   height: 100%;
+  font-family: $font-family-yahei;
 }
 
 // Typography
@@ -23,7 +24,7 @@ hr.light {
 
 // Button restyling
 .btn {
-  font-family: $font-family-sans-serif;
+  font-family: $font-family-yahei;
 }
 
 .btn-xl {
@@ -46,4 +47,9 @@ hr.light {
       max-width: 1440px;
     }
   }
+}
+
+.content-text {
+  font-size: 14px;
+  line-height: 27px;
 }
