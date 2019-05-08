@@ -1,0 +1,55 @@
+.footer-box {
+    .footer-heading {
+        font-size: 22px;
+        font-weight: bolder;
+    }
+    .footer-divider {
+        margin: 1.5rem auto 1.5rem 0;
+        width: 2.5rem;
+        height: 3px;
+        background-color: $white;
+    }
+    .footer-item {
+        font-size: 17px;
+        .footer-input {
+            position: relative;
+            padding: 0;
+            input {
+                margin: 0;
+                width: 73%;
+                display: inline-block;
+                border: 1px solid $white;
+                background-color: $heavy-blue;
+                padding: 0 0.5rem;
+                color: $white;
+            }
+            button {
+                margin: 0;
+                width: 25%;
+                background-color: $white;
+                color: $main-blue;
+                border: 1px solid $white;
+                display: inline-block;
+                &:hover {
+                    background-color: $main-blue;
+                    color: $white;
+                }
+            }
+        }
+    }
+}
+
+.footer-social {
+    max-width: 120px;
+    margin-bottom: 1rem;
+    i {
+        color: #9e9e9e;
+        &:hover {
+            color: $main-red;
+        }
+    }
+}
+
+footer {
+    background-color: $bg-black;
+}

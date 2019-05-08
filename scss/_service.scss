@@ -43,3 +43,22 @@
         font-family: $font-family-yahei;
     }
 }
+
+.service-trip-box {
+    padding: 1rem;
+    text-align: center;
+    margin: 1.5rem 0;
+    .service-trip-box-content {
+        line-height: 35px;
+        margin-bottom: 1.5rem;
+        h5 {
+            font-size: 18px;
+        }
+    }
+    .service-trip-box-img {
+        img {
+            width: 100%;
+            max-width: 400px;
+        }
+    }
+}
