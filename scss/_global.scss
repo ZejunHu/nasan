@@ -38,7 +38,10 @@ hr.light {
 
 // Page section padding
 .page-section {
-  padding: 8rem 0;
+  padding: 8rem 1rem;
+  @media (min-width: 576px) {
+    padding: 8rem 0;
+  }
 }
 
 .container {

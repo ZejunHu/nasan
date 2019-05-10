@@ -10588,7 +10588,13 @@ hr.light {
 }
 
 .page-section {
-  padding: 8rem 0;
+  padding: 8rem 1rem;
+}
+
+@media (min-width: 576px) {
+  .page-section {
+    padding: 8rem 0;
+  }
 }
 
 @media (min-width: 1500px) {
